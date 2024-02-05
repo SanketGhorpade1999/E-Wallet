@@ -66,7 +66,7 @@ THEN my balance should decreased, and merchant balance should increased, and i g
  - user_id
  - balance
 
-(entity) transaksi
+(entity) transactions
   - id
   - reference
   - date
@@ -88,11 +88,11 @@ service
     - add new wallet to wallet 
 
   - topup:
-    - add new transaksi with type topup 
+    - add new transaction with type topup 
     - increase balance from wallet
 
   - payment:
-    - add new transaksi with type payment 
+    - add new transaction with type payment 
     - decrease balance from debited wallet
     - incrase balance from credited wallet
 ```
