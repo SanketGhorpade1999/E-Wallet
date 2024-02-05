@@ -10,7 +10,7 @@
 make build
 ```
 
-One day, you thought of building a fintech application that facilitates non-cash transactions. As the Minimum Viable Product (MVP), you want the application to have the following features:
+One day, I thought of building a fintech application that facilitates non-cash transactions. As the Minimum Viable Product (MVP), this is the application to have the following features:
 
 ##Transactions:
 
