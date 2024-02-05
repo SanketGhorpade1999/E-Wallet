@@ -38,13 +38,13 @@ Some Spec:
 ```
 GIVEN I am unregister person
 WHEN i register as customer with (name, email, phone)
-THEN e-wallet should record it as new customer and return my wallet-id
+THEN E-wallet should record it as new customer and return my wallet-id
 
-GIVEN I am owner of Ewallet
+GIVEN I am owner of E-wallet
 WHEN i register new merchant with (name, email)
 THEN e-wallet should record it as new merchant and return merchant wallet-id
 
-GIVEN I am customer of Ewallet
+GIVEN I am customer of E-wallet
 WHEN i topup some amount
 THEN e-wallet my balance should increased
 
@@ -122,7 +122,4 @@ API:
       "merchant_id": ""
     }
  ```
- 
- ### TODO:
- 
-There are still many shortcomings in the implementation of this code, such as the absence of repository implementation (only mock), the need to wrap logic into database transactions (for consistency), and non-happy path testing requirements.
+
