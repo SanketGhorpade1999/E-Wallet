@@ -1,4 +1,4 @@
-# Fintech Project
+# E-Wallet System
 
 
 ##### Dependencies:
@@ -10,23 +10,29 @@
 make build
 ```
 
-### Problem Statement:
+One day, you thought of building a fintech application that facilitates non-cash transactions. As the Minimum Viable Product (MVP), you want the application to have the following features:
 
-Suatu hari anda terfikir untuk membangun sebuah applikasi fintech yang dapat melakukan transaksi non tunai, sebagai Minimum Viable Productnya anda ingin applikasi ini memiliki feature berikut
- 
- Transaksi : 
-  - customer dapat melakukan pendaftaran 
-  - sebagai owner anda dapat mendaftarkan merchant baru yang dapat melakukan transaksi 
-  - customer dapat melakukan pengisian balance (Topup)
-  - customer dapat melakukan pembayaran kepada merchant" yang telah terdaftar 
+##Transactions:
 
-#### Meet the actor :
- - customer: 
- - merchant: 
+1. Customers can register.
+2. As the owner, you can register new merchants who can conduct transactions.
+3. Customers can top up their balance.
+4. Customers can make payments to registered merchants.
 
- - transaksi 
-    - customer dapat topup
-    - customer dapat transaksi ke merchant yang telah terdaftar
+##Meet the actors:
+
+- Customer
+- Merchant
+- Transaction
+
+##Actions:
+
+- Customer can register.
+- Merchant can be registered by the owner and conduct transactions.
+- Customers can top up their balance.
+- Customers can make transactions with registered merchants.
+
+
 
 Some Spec: 
 ```
@@ -119,4 +125,4 @@ API:
  
  ### TODO:
  
- masi banyak kekurangan dari implementasi code ini, misalnya implementasi repository yang belum ada (hanya mock), kebutuhan untuk wrap logic kedalam database transaction (for consistency) dan non happy path test
+There are still many shortcomings in the implementation of this code, such as the absence of repository implementation (only mock), the need to wrap logic into database transactions (for consistency), and non-happy path testing requirements.
